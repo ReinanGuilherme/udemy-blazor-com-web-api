@@ -8,11 +8,7 @@
 
 <FormCarrera OnGuardar="Guardar" />
 
-<ListCarrera lista="@listacarrera"/>
-
-
-
-
+<ListCarrera OnEliminar="Eliminar" lista="@listacarrera"/>
 
 @code {
 
@@ -50,7 +46,6 @@
     {
         var data = listacarrera.Where(p => p.idcarrera != idcarrera).ToList();
         listacarrera = data;
-
         await Task.CompletedTask;
     }
 

@@ -36,10 +36,13 @@ else
 
 @code {
     [Parameter]
+    public EventCallback<int> OnEliminar { get; set; }
+
+    [Parameter]
     public List<CarreraCLS> lista { get; set; }
 
     public async Task Eliminar(int idcarrera)
     {
-        
+        await OnEliminar.InvokeAsync(idcarrera);
     }
 }
