@@ -1,0 +1,45 @@
+﻿@using PrimeiroAppBlazor.Library;
+
+@if (lista is null)
+{
+    <h1>Carregando...</h1>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Description</th>
+                <th>Operaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var carrera in lista)
+            {
+                <tr>
+                    <td>@carrera.idcarrera</td>
+                    <td>@carrera.nombrecarrera</td>
+                    <td>@carrera.descripcioncarrera</td>
+                    <td>
+                        <button class="btn btn-danger"
+                                @onclick="(() => Eliminar(carrera.idcarrera))">
+                            Eliminar
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public List<CarreraCLS> lista { get; set; }
+
+    public async Task Eliminar(int idcarrera)
+    {
+        
+    }
+}

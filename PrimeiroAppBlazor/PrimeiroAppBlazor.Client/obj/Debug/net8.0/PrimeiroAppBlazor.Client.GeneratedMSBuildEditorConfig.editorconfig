@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJyZXJhXEZvcm1DYXJyZXJhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Reinan.Neto/Desktop/Projetos Reinan/Cursos/udemy-blazor-com-web-api/PrimeiroAppBlazor/PrimeiroAppBlazor.Client/Components/Carrera/ListCarrera.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJyZXJhXExpc3RDYXJyZXJhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Reinan.Neto/Desktop/Projetos Reinan/Cursos/udemy-blazor-com-web-api/PrimeiroAppBlazor/PrimeiroAppBlazor.Client/Pages/CarreraPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FycmVyYVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
