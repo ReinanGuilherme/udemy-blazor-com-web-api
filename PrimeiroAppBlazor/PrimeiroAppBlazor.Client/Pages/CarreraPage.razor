@@ -6,6 +6,7 @@
 <h1>Pagina Carrera</h1>
 
 <EditForm Model="@carreraCLS" OnValidSubmit="@Guardar">
+    <DataAnnotationsValidator />
     <div class="mt-3">
         <label>Ingresse Id</label>
         <InputNumber class="form-control" @bind-Value="carreraCLS.idcarrera" />
@@ -14,11 +15,13 @@
     <div class="mt-3">
         <label>Ingresse Nombre</label>
         <InputText class="form-control" @bind-Value="carreraCLS.nombrecarrera" />
+        <ValidationMessage For="(()=>carreraCLS.nombrecarrera)" />
     </div>
 
     <div class="mt-3">
         <label>Ingresse Descripcion</label>
         <InputTextArea class="form-control" @bind-Value="carreraCLS.descripcioncarrera" />
+        <ValidationMessage For="(()=>carreraCLS.descripcioncarrera)" />
     </div>
     
     <div class="mt-3">
