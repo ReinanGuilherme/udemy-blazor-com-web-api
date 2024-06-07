@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimeiroAppBlazor.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c910c6aa6d4fe60864c8aeb579894b3de262cbe4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a9fe399d87a89c15e5a4d310b1cfd91844b821d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimeiroAppBlazor.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimeiroAppBlazor.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
