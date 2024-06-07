@@ -1,0 +1,37 @@
+﻿@using PrimeiroAppBlazor.Library
+
+<EditForm Model="@carreraCLS" OnValidSubmit="@Guardar">
+    <DataAnnotationsValidator />
+    <div class="mt-3">
+        <label>Ingresse Id</label>
+        <InputNumber class="form-control" @bind-Value="carreraCLS.idcarrera" />
+    </div>
+
+    <div class="mt-3">
+        <label>Ingresse Nombre</label>
+        <InputText class="form-control" @bind-Value="carreraCLS.nombrecarrera" />
+        <ValidationMessage For="(()=>carreraCLS.nombrecarrera)" />
+    </div>
+
+    <div class="mt-3">
+        <label>Ingresse Descripcion</label>
+        <InputTextArea class="form-control" @bind-Value="carreraCLS.descripcioncarrera" />
+        <ValidationMessage For="(()=>carreraCLS.descripcioncarrera)" />
+    </div>
+
+    <div class="mt-3">
+        <button class="btn btn-primary" type="submit">Guardar</button>
+    </div>
+</EditForm>
+
+@code {
+    public CarreraCLS carreraCLS { get; set; } = new CarreraCLS();
+
+    public async Task Guardar()
+    {
+        //listacarrera.Add(carreraCLS);
+        //carreraCLS = new CarreraCLS();
+        await Task.CompletedTask;
+    }   
+
+}
