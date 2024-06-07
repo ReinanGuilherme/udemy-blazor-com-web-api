@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroAppBlazor.API", "PrimeiroAppBlazor.API\PrimeiroAppBlazor.API.csproj", "{5DC790D5-9CEE-4058-BF61-1DD2CF1B957A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroAppBlazor.API", "PrimeiroAppBlazor.API\PrimeiroAppBlazor.API.csproj", "{5DC790D5-9CEE-4058-BF61-1DD2CF1B957A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroAppBlazor.Client", "PrimeiroAppBlazor.Client\PrimeiroAppBlazor.Client.csproj", "{B813E5A4-E4B4-4BC6-A9AA-D5E799FB75CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroAppBlazor.Client", "PrimeiroAppBlazor.Client\PrimeiroAppBlazor.Client.csproj", "{B813E5A4-E4B4-4BC6-A9AA-D5E799FB75CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroAppBlazor.Library", "PrimeiroAppBlazor.Library\PrimeiroAppBlazor.Library.csproj", "{F7641908-C748-4DEB-B0DD-3A2D88A996C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroAppBlazor.Library", "PrimeiroAppBlazor.Library\PrimeiroAppBlazor.Library.csproj", "{F7641908-C748-4DEB-B0DD-3A2D88A996C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

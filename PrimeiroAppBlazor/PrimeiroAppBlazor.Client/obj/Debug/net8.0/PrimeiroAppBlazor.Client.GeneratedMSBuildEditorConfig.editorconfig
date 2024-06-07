@@ -26,12 +26,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Reinan.Neto/Desktop/Projetos Reinan/Cursos/udemy-blazor-com-web-api/PrimeiroAppBlazor/PrimeiroAppBlazor.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/Reinan.Neto/Desktop/Projetos Reinan/Cursos/udemy-blazor-com-web-api/PrimeiroAppBlazor/PrimeiroAppBlazor.Client/Pages/CarreraPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FycmVyYVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Reinan.Neto/Desktop/Projetos Reinan/Cursos/udemy-blazor-com-web-api/PrimeiroAppBlazor/PrimeiroAppBlazor.Client/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[C:/Users/Reinan.Neto/Desktop/Projetos Reinan/Cursos/udemy-blazor-com-web-api/PrimeiroAppBlazor/PrimeiroAppBlazor.Client/Pages/CursoPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Reinan.Neto/Desktop/Projetos Reinan/Cursos/udemy-blazor-com-web-api/PrimeiroAppBlazor/PrimeiroAppBlazor.Client/Pages/PersonaPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Reinan.Neto/Desktop/Projetos Reinan/Cursos/udemy-blazor-com-web-api/PrimeiroAppBlazor/PrimeiroAppBlazor.Client/Pages/Weather.razor]
