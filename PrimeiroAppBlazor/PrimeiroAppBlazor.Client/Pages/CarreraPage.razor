@@ -40,6 +40,7 @@
                 <th>Id</th>
                 <th>Nombre</th>
                 <th>Description</th>
+                <th>Operaciones</th>
             </tr>
         </thead>
         <tbody>
@@ -49,6 +50,10 @@
                     <td>@carrera.idcarrera</td>
                     <td>@carrera.nombrecarrera</td>
                     <td>@carrera.descripcioncarrera</td>
+                    <td>
+                        <button class="btn btn-danger"
+                                @onclick="(() => Eliminar(carrera.idcarrera))">Eliminar</button>
+                    </td>
                 </tr>
             }
         </tbody>
@@ -86,5 +91,13 @@
     {
         listacarrera.Add(carreraCLS);
         carreraCLS = new CarreraCLS();
+    }
+
+    public async Task Eliminar(int idcarrera)
+    {
+        var data = listacarrera.Where(p => p.idcarrera != idcarrera).ToList();
+        listacarrera = data;
+
+        await Task.CompletedTask;
     }
 }
