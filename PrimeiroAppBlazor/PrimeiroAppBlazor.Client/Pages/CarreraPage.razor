@@ -6,7 +6,7 @@
 
 <h1>Pagina Carrera</h1>
 
-<FormCarrera />
+<FormCarrera OnGuardar="Guardar" />
 
 
 
@@ -64,6 +64,12 @@
                 descripcioncarrera = "Desc 2"
             });
 
+        await Task.CompletedTask;
+    }
+
+    public async Task Guardar(CarreraCLS carreraCLS)
+    {
+        listacarrera.Add(carreraCLS);     
         await Task.CompletedTask;
     }
 
