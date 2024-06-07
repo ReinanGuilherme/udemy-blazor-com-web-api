@@ -1,5 +1,32 @@
 ﻿@page "/"
+@using PrimeiroAppBlazor.Library
 
 <PageTitle>Carrera</PageTitle>
 
 <h1>Pagina Carrera</h1>
+
+@code {
+    public List<CarreraCLS> listacarrera { get; set; }
+
+    // quando o componente inicia o carregamente ou finaliza
+    protected override async Task OnInitializedAsync()
+    {
+
+        listacarrera = new List<CarreraCLS>();
+
+        listacarrera.Add(new CarreraCLS { 
+            idcarrera = 1, 
+            nombrecarrera = "Informatica", 
+            descripcioncarrera = "Desc 1" 
+        });
+
+        listacarrera.Add(new CarreraCLS
+            {
+                idcarrera = 2,
+                nombrecarrera = "Medicina",
+                descripcioncarrera = "Desc 2"
+            });
+
+        await Task.CompletedTask;
+    }
+}

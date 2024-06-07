@@ -491,6 +491,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PrimeiroAppBlazor.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PrimeiroAppBlazor.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeiroAppBlazor.Library.dll": {}
+        }
       }
     },
     "net8.0/browser-wasm": {
@@ -976,6 +986,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PrimeiroAppBlazor.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PrimeiroAppBlazor.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeiroAppBlazor.Library.dll": {}
         }
       }
     }
@@ -2046,6 +2066,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PrimeiroAppBlazor.Library/1.0.0": {
+      "type": "project",
+      "path": "../PrimeiroAppBlazor.Library/PrimeiroAppBlazor.Library.csproj",
+      "msbuildProject": "../PrimeiroAppBlazor.Library/PrimeiroAppBlazor.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2053,7 +2078,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.4",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.4",
       "Microsoft.NET.ILLink.Tasks >= 8.0.4",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.4"
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.4",
+      "PrimeiroAppBlazor.Library >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2087,7 +2113,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Reinan.Neto\\Desktop\\Projetos Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {
+              "projectPath": "C:\\Users\\Reinan.Neto\\Desktop\\Projetos Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
