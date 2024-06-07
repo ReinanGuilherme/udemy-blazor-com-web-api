@@ -1,0 +1,12 @@
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\bin\Debug\net8.0\PrimeiroAppBlazor.Library.deps.json
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\bin\Debug\net8.0\PrimeiroAppBlazor.Library.dll
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\bin\Debug\net8.0\PrimeiroAppBlazor.Library.pdb
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.AssemblyInfoInputs.cache
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.AssemblyInfo.cs
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.csproj.CoreCompileInputs.cache
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.sourcelink.json
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.dll
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\refint\PrimeiroAppBlazor.Library.dll
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.pdb
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\ref\PrimeiroAppBlazor.Library.dll

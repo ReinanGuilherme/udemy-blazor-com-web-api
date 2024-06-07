@@ -1030,3 +1030,12 @@ C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\Pri
 C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\obj\Debug\net8.0\refint\PrimeiroAppBlazor.Client.dll
 C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\obj\Debug\net8.0\PrimeiroAppBlazor.Client.pdb
 C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\obj\Debug\net8.0\ref\PrimeiroAppBlazor.Client.dll
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\bin\Debug\net8.0\wwwroot\_framework\PrimeiroAppBlazor.Library.pdb
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\bin\Debug\net8.0\wwwroot\_framework\PrimeiroAppBlazor.Library.wasm
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\bin\Debug\net8.0\wwwroot\_framework\PrimeiroAppBlazor.Library.wasm.gz
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\bin\Debug\net8.0\wwwroot\_framework\PrimeiroAppBlazor.Library.pdb.gz
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\bin\Debug\net8.0\PrimeiroAppBlazor.Library.dll
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\bin\Debug\net8.0\PrimeiroAppBlazor.Library.pdb
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\obj\Debug\net8.0\webcil\PrimeiroAppBlazor.Library.wasm
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\obj\Debug\net8.0\compressed\0jni6v374c.gz
+C:\Users\Reinan.Neto\Desktop\Projetos Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Client\obj\Debug\net8.0\compressed\n617jnry4v.gz
