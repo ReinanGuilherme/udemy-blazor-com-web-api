@@ -5,7 +5,7 @@
 
 <h1>Pagina Carrera</h1>
 
-<EditForm Model="@carreraCLS">
+<EditForm Model="@carreraCLS" OnValidSubmit="@Guardar">
     <div class="mt-3">
         <label>Ingresse Id</label>
         <InputNumber class="form-control" @bind-Value="carreraCLS.idcarrera" />
@@ -77,5 +77,11 @@
             });
 
         await Task.CompletedTask;
+    }
+
+    public async Task Guardar()
+    {
+        listacarrera.Add(carreraCLS);
+        carreraCLS = new CarreraCLS();
     }
 }
