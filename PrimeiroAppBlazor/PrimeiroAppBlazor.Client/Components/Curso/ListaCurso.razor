@@ -1,5 +1,54 @@
-﻿<h3>ListCurso</h3>
+﻿@using PrimeiroAppBlazor.Library
+
+<h3>ListCurso</h3>
+
+@if (lista is null)
+{
+	<h1>Carregando...</h1>
+}
+else
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Nombre</th>
+				<th>Creditos</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var curso in lista)
+			{
+				<tr>
+					<td>@curso.idcurso</td>
+					<td>@curso.nombrecurso</td>
+					<td>@curso.numerocreditos</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
 
 @code {
+	public List<CursoCLS> lista { get; set; }
 
+	protected override async Task OnInitializedAsync()
+	{
+		lista = new List<CursoCLS>();
+		lista.Add(new CursoCLS
+			{
+				idcarrera = 1,
+				nombrecurso = "Matematica",
+				numerocreditos = 6
+			});
+
+		lista.Add(new CursoCLS
+			{
+				idcarrera = 2,
+				nombrecurso = "Historia",
+				numerocreditos = 8
+			});
+
+		await Task.CompletedTask;
+	}
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reinan.Neto\\Desktop\\Projetos Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {}
+    "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reinan.Neto\\Desktop\\Projetos Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {
+    "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reinan.Neto\\Desktop\\Projetos Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj",
+        "projectUniqueName": "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj",
         "projectName": "PrimeiroAppBlazor.Library",
-        "projectPath": "C:\\Users\\Reinan.Neto\\Desktop\\Projetos Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj",
-        "packagesPath": "C:\\Users\\Reinan.Neto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reinan.Neto\\Desktop\\Projetos Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\obj\\",
+        "projectPath": "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj",
+        "packagesPath": "C:\\Users\\Reinan Guilherme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Reinan.Neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Reinan Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

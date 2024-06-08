@@ -1,5 +1,31 @@
-﻿<h3>FormCurso</h3>
+﻿@using PrimeiroAppBlazor.Library
+
+<EditForm Model="@cursoCLS" OnValidSubmit="Guardar">
+	<div class="mt-3">
+		<label>Id Curso</label>
+		<InputNumber class="form-control" @bind-Value="@cursoCLS.idcurso"/>
+	</div>
+	
+	<div class="mt-3">
+		<label>Nombre Curso</label>
+		<InputText class="form-control" @bind-Value="@cursoCLS.nombrecurso"/>
+	</div>
+	
+	<div class="mt-3">
+		<label>Numero Creditos</label>
+		<InputNumber class="form-control" @bind-Value="@cursoCLS.numerocreditos"/>
+	</div>
+
+	<div class="mt-3">
+		<button class="btn btn-primary" type="submit">Guardar</button>
+	</div>
+</EditForm>
 
 @code {
+	public CursoCLS cursoCLS = new CursoCLS();
 
+	public async void Guardar()
+	{
+		
+	}
 }
