@@ -1,4 +1,6 @@
 ﻿@using PrimeiroAppBlazor.Library
+@using PrimeiroAppBlazor.Client.Services
+@inject CursoServices cursoService;
 
 <h3>ListCurso</h3>
 
@@ -14,6 +16,7 @@ else
 				<th>Id</th>
 				<th>Nombre</th>
 				<th>Creditos</th>
+				<th>Operaciones</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -23,6 +26,11 @@ else
 					<td>@curso.idcurso</td>
 					<td>@curso.nombrecurso</td>
 					<td>@curso.numerocreditos</td>
+					<td>
+						<button class="btn btn-primary" @onclick="(()=>Editar(curso))">Eliminar</button>
+
+						<button class="btn btn-danger" @onclick="(()=>Eliminar(curso.idcurso))">Eliminar</button>
+					</td>
 				</tr>
 			}
 		</tbody>
@@ -34,21 +42,26 @@ else
 
 	protected override async Task OnInitializedAsync()
 	{
-		lista = new List<CursoCLS>();
-		lista.Add(new CursoCLS
-			{
-				idcarrera = 1,
-				nombrecurso = "Matematica",
-				numerocreditos = 6
-			});
-
-		lista.Add(new CursoCLS
-			{
-				idcarrera = 2,
-				nombrecurso = "Historia",
-				numerocreditos = 8
-			});
-
+		lista = cursoService.ListarCursos();
+		cursoService.OnChange += RefrezcarLista;
 		await Task.CompletedTask;
+	}
+
+	public void RefrezcarLista()
+	{
+		lista = cursoService.ListarCursos();
+		StateHasChanged();
+	}
+
+	public void Eliminar(int idcurso)
+	{
+		cursoService.Eliminar(idcurso);
+		StateHasChanged();
+	}
+	
+	public void Editar(CursoCLS curso)
+	{
+		cursoService.NotificarEditar(curso);
+		StateHasChanged();
 	}
 }
