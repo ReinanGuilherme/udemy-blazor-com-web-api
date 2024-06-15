@@ -20,6 +20,7 @@
 
 	<div class="mt-3">
 		<button class="btn btn-primary" type="submit">Guardar</button>
+		<button class="btn btn-secondary" type="button" @onclick="(()=>Limpiar())">Limpiar</button>
 	</div>
 </EditForm>
 
@@ -35,6 +36,11 @@
 	public async void Guardar()
 	{
 		cursoService.Agregar(cursoCLS);
+		cursoCLS = new CursoCLS();
+	}
+
+	public async void Limpiar()
+	{
 		cursoCLS = new CursoCLS();
 	}
 

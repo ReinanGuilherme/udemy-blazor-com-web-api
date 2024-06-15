@@ -56,12 +56,10 @@ else
 	public void Eliminar(int idcurso)
 	{
 		cursoService.Eliminar(idcurso);
-		StateHasChanged();
 	}
 	
 	public void Editar(CursoCLS curso)
 	{
 		cursoService.NotificarEditar(curso);
-		StateHasChanged();
 	}
 }
