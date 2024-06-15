@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PrimeiroAppBlazor.Library
-build_property.ProjectDir = C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\
+build_property.ProjectDir = C:\Users\Reinan Guilherme\Desktop\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reinan.neto\\Desktop\\Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {}
+    "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reinan.neto\\Desktop\\Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {
+    "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reinan.neto\\Desktop\\Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj",
+        "projectUniqueName": "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj",
         "projectName": "PrimeiroAppBlazor.Library",
-        "projectPath": "C:\\Users\\reinan.neto\\Desktop\\Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj",
-        "packagesPath": "C:\\Users\\reinan.neto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reinan.neto\\Desktop\\Reinan\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\obj\\",
+        "projectPath": "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\PrimeiroAppBlazor.Library.csproj",
+        "packagesPath": "C:\\Users\\Reinan Guilherme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Reinan Guilherme\\Desktop\\Cursos\\udemy-blazor-com-web-api\\PrimeiroAppBlazor\\PrimeiroAppBlazor.Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\reinan.neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Reinan Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
