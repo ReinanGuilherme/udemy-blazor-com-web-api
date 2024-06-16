@@ -1,4 +1,6 @@
 ﻿@using PrimeiroAppBlazor.Library;
+@using PrimeiroAppBlazor.Client.Services
+@inject CarreraService carreraService;
 
 @if (lista is null)
 {
@@ -23,10 +25,15 @@ else
                     <td>@carrera.nombrecarrera</td>
                     <td>@carrera.descripcioncarrera</td>
                     <td>
+                        <button class="btn btn-secondary"
+                                @onclick="(() => editar(carrera))">
+                            Editar
+                        </button>
                         <button class="btn btn-danger"
-                                @onclick="(() => Eliminar(carrera.idcarrera))">
+                                @onclick="(() => eliminar(carrera.idcarrera))">
                             Eliminar
                         </button>
+                        
                     </td>
                 </tr>
             }
@@ -35,14 +42,28 @@ else
 }
 
 @code {
-    [Parameter]
-    public EventCallback<int> OnEliminar { get; set; }
-
-    [Parameter]
     public List<CarreraCLS> lista { get; set; }
 
-    public async Task Eliminar(int idcarrera)
+    protected override async Task OnInitializedAsync()
     {
-        await OnEliminar.InvokeAsync(idcarrera);
+        lista = carreraService.listarCarreras();
+        await Task.CompletedTask;
+    }
+
+    private async Task eliminar(int idCarrera)
+    {
+        carreraService.eliminar(idCarrera);
+        await Task.CompletedTask;
+    }
+
+    private async Task editar(CarreraCLS carrera)
+    {
+        carreraService.notificarEdit(carrera);
+    }
+
+    private void refrezcarLista()
+    {
+        lista = carreraService.listarCarreras();
+        StateHasChanged();
     }
 }

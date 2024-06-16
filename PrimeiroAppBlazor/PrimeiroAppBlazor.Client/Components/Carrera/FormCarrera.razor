@@ -1,4 +1,6 @@
 ﻿@using PrimeiroAppBlazor.Library
+@using PrimeiroAppBlazor.Client.Services
+@inject CarreraService carreraService;
 
 <EditForm Model="@carreraCLS" OnValidSubmit="@Guardar">
     <DataAnnotationsValidator />
@@ -30,11 +32,24 @@
 
     public CarreraCLS carreraCLS { get; set; } = new CarreraCLS();
 
+    protected override async Task OnInitializedAsync()
+    {
+        carreraService.onEdit += recuperarCarrera;
+        await Task.CompletedTask;
+        
+    }
+
     public async Task Guardar()
     {
-        //listacarrera.Add(carreraCLS);
-        await OnGuardar.InvokeAsync(carreraCLS);
-        //carreraCLS = new CarreraCLS();
+        carreraService.agregar(carreraCLS);
+        carreraCLS = new CarreraCLS();
+        await Task.CompletedTask;
+    }
+
+    public async Task recuperarCarrera(CarreraCLS carreraRecuperar)
+    {
+        carreraCLS = carreraRecuperar;
+        StateHasChanged();
         await Task.CompletedTask;
     }
 
