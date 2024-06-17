@@ -5,14 +5,21 @@
 <div class="input-group mb-3">
     <input type="text" class="form-control" placeholder="Ingresse nombre carrera" aria-label="Ingresse nombre carrera" aria-describedby="button-addon2" @bind="@nombreCarrera">
     <button class="btn btn-dark" @onclick="(() => buscar())" type="button" id="button-addon2">Buscar</button>
-    <button class="btn btn-danger" type="button" id="button-addon2">Limpiar</button>
+    <button class="btn btn-danger" @onclick="(() => limpiar())" type="button" id="button-addon2">Limpiar</button>
 </div>
 
 @code {
     public string nombreCarrera { get; set; }
 
-    public async Task buscar()
+    private async Task buscar()
     {
+        carreraService.notificarSearch(nombreCarrera);
+        await Task.CompletedTask;
+    }
+
+    private async Task limpiar()
+    {
+        nombreCarrera = string.Empty;
         carreraService.notificarSearch(nombreCarrera);
         await Task.CompletedTask;
     }
