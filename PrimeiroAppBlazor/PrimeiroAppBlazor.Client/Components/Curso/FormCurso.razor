@@ -33,20 +33,23 @@
 		await Task.CompletedTask;
 	}
 
-	public async void Guardar()
+	public async Task Guardar()
 	{
 		cursoService.Agregar(cursoCLS);
 		cursoCLS = new CursoCLS();
+		await Task.CompletedTask;
 	}
 
-	public async void Limpiar()
+	public async Task Limpiar()
 	{
 		cursoCLS = new CursoCLS();
+		await Task.CompletedTask;
 	}
 
-	public void RecuperarCurso(CursoCLS cursoRecuperadoClS)
+	public async Task RecuperarCurso(CursoCLS cursoRecuperadoClS)
 	{
 		cursoCLS = cursoRecuperadoClS;
 		StateHasChanged();
+		await Task.CompletedTask;
 	}
 }

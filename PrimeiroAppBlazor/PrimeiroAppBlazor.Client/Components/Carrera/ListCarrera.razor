@@ -47,6 +47,7 @@ else
     protected override async Task OnInitializedAsync()
     {
         lista = carreraService.listarCarreras();
+        carreraService.onChange += refrezcarLista;
         await Task.CompletedTask;
     }
 
@@ -61,9 +62,10 @@ else
         carreraService.notificarEdit(carrera);
     }
 
-    private void refrezcarLista()
+    private async Task refrezcarLista()
     {
         lista = carreraService.listarCarreras();
         StateHasChanged();
+        await Task.CompletedTask;
     }
 }

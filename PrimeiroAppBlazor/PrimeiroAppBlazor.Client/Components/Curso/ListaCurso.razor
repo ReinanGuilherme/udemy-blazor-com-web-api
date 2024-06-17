@@ -47,19 +47,22 @@ else
 		await Task.CompletedTask;
 	}
 
-	public void RefrezcarLista()
+	public async Task RefrezcarLista()
 	{
 		lista = cursoService.ListarCursos();
 		StateHasChanged();
+		await Task.CompletedTask;
 	}
 
-	public void Eliminar(int idcurso)
+	public async Task Eliminar(int idcurso)
 	{
 		cursoService.Eliminar(idcurso);
+		await Task.CompletedTask;
 	}
-	
-	public void Editar(CursoCLS curso)
+
+	public async Task Editar(CursoCLS curso)
 	{
 		cursoService.NotificarEditar(curso);
+		await Task.CompletedTask;
 	}
 }

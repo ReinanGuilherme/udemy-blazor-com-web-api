@@ -4,7 +4,7 @@ namespace PrimeiroAppBlazor.Client.Services
 {
 	public class CarreraService
 	{
-        public event Action onChange;
+        public event Func<Task> onChange;
         public event Func<CarreraCLS, Task> onEdit;
 		public List<CarreraCLS> lista { get; set; }
 
