@@ -40,11 +40,14 @@
 
     private async Task buscar()
     {
+        cursoService.NotificarSearch(cursoCLS);
         await Task.CompletedTask;
     }
 
     private async Task limpiar()
     {
+        cursoCLS = new CursoCLS();
+        cursoService.NotificarSearch(cursoCLS);
         await Task.CompletedTask;
     }
 }

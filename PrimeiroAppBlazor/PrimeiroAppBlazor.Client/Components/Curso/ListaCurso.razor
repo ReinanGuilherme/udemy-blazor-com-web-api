@@ -44,6 +44,7 @@ else
 	{
 		lista = cursoService.ListarCursos();
 		cursoService.OnChange += RefrezcarLista;
+		cursoService.OnSearch += BuscarCursos;
 		await Task.CompletedTask;
 	}
 
@@ -63,6 +64,13 @@ else
 	public async Task Editar(CursoCLS curso)
 	{
 		cursoService.NotificarEditar(curso);
+		await Task.CompletedTask;
+	}
+	
+	public async Task BuscarCursos(CursoCLS curso)
+	{
+		cursoService.BuscarCursos(curso);
+		StateHasChanged();
 		await Task.CompletedTask;
 	}
 }
