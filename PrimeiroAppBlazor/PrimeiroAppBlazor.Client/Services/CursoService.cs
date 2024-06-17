@@ -2,12 +2,12 @@
 
 namespace PrimeiroAppBlazor.Client.Services
 {
-    public class CursoServices
+    public class CursoService
     {
 		public List<CursoCLS> lista;
 		public event Func<Task> OnChange;
 		public event Func<CursoCLS, Task> OnEdit;
-		public CursoServices()
+		public CursoService()
         {
 			lista = new List<CursoCLS>();
 			lista.Add(new CursoCLS

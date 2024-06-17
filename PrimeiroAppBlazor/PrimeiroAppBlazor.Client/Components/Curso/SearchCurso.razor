@@ -1,0 +1,50 @@
+﻿@using PrimeiroAppBlazor.Library
+@using PrimeiroAppBlazor.Client.Services
+@inject CursoService cursoService
+@inject CarreraService carreraService
+
+<EditForm Model="@cursoCLS" OnValidSubmit="buscar">
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text">Nombre Curso</span>
+    </div>
+
+    <input type="text" class="form-control" aria-describedby="button-addon2" @bind-value="@cursoCLS.nombrecurso">
+
+        <div class="input-group-prepend">
+            <span class="input-group-text">Carrera</span>
+        </div>
+
+    <InputSelect @bind-Value="@cursoCLS.idcarrera" class="form-control">
+        <option value="0">Selecione</option>
+        @foreach (var carrera in listaCarrera)
+        {
+            <option value="@carrera.idcarrera">@carrera.nombrecarrera</option>
+        }
+    </InputSelect>
+
+    <button class="btn btn-dark" type="submit" id="button-addon2">Buscar</button>
+    <button class="btn btn-danger" @onclick="(() => limpiar())" type="button" id="button-addon2">Limpiar</button>
+</div>
+</EditForm>
+
+@code {
+    public CursoCLS cursoCLS { get; set; } = new CursoCLS();
+    public List<CarreraCLS> listaCarrera { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        listaCarrera = carreraService.listarCarreras();
+        await Task.CompletedTask;
+    }
+
+    private async Task buscar()
+    {
+        await Task.CompletedTask;
+    }
+
+    private async Task limpiar()
+    {
+        await Task.CompletedTask;
+    }
+}
