@@ -48,6 +48,7 @@ else
     {
         lista = carreraService.listarCarreras();
         carreraService.onChange += refrezcarLista;
+        carreraService.onSearch += buscarCarrera;
         await Task.CompletedTask;
     }
 
@@ -65,6 +66,13 @@ else
     private async Task refrezcarLista()
     {
         lista = carreraService.listarCarreras();
+        StateHasChanged();
+        await Task.CompletedTask;
+    }
+
+    private async Task buscarCarrera(string nombreCarrera)
+    {
+        lista = carreraService.buscarCarreras(nombreCarrera);
         StateHasChanged();
         await Task.CompletedTask;
     }

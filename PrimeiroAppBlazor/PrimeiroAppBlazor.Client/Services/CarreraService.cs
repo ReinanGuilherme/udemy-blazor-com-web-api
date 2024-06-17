@@ -6,6 +6,7 @@ namespace PrimeiroAppBlazor.Client.Services
 	{
         public event Func<Task> onChange;
         public event Func<CarreraCLS, Task> onEdit;
+        public event Func<string, Task> onSearch;
 		public List<CarreraCLS> lista { get; set; }
 
         public CarreraService()
@@ -19,6 +20,18 @@ namespace PrimeiroAppBlazor.Client.Services
         public List<CarreraCLS> listarCarreras()
         {
             return lista;
+        }
+        
+        public List<CarreraCLS> buscarCarreras(string nombreCarrera)
+        {
+            if(string.IsNullOrWhiteSpace(nombreCarrera))
+            {
+                return lista;
+            }
+
+            List<CarreraCLS> l = lista.Where(p => p.nombrecarrera.ToUpper().Contains(nombreCarrera.ToUpper())).ToList();
+            return l;
+
         }
         public void agregar(CarreraCLS carreraCLS)
         {
@@ -39,6 +52,11 @@ namespace PrimeiroAppBlazor.Client.Services
         public void notificarEdit(CarreraCLS carreraCLS)
         {
             onEdit.Invoke(carreraCLS);
+        }
+        
+        public void notificarSearch(string nombreCarrera)
+        {
+            onSearch.Invoke(nombreCarrera);
         }
     }
 }
