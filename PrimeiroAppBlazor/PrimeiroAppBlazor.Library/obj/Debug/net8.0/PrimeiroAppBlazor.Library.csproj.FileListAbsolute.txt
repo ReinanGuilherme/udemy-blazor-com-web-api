@@ -22,3 +22,15 @@ C:\Users\Reinan Guilherme\Desktop\Cursos\udemy-blazor-com-web-api\PrimeiroAppBla
 C:\Users\Reinan Guilherme\Desktop\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\refint\PrimeiroAppBlazor.Library.dll
 C:\Users\Reinan Guilherme\Desktop\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.pdb
 C:\Users\Reinan Guilherme\Desktop\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\ref\PrimeiroAppBlazor.Library.dll
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\bin\Debug\net8.0\PrimeiroAppBlazor.Library.deps.json
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\bin\Debug\net8.0\PrimeiroAppBlazor.Library.dll
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\bin\Debug\net8.0\PrimeiroAppBlazor.Library.pdb
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.AssemblyInfoInputs.cache
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.AssemblyInfo.cs
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.csproj.CoreCompileInputs.cache
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.sourcelink.json
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.dll
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\refint\PrimeiroAppBlazor.Library.dll
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\PrimeiroAppBlazor.Library.pdb
+C:\Users\reinan.neto\Desktop\Reinan\Cursos\udemy-blazor-com-web-api\PrimeiroAppBlazor\PrimeiroAppBlazor.Library\obj\Debug\net8.0\ref\PrimeiroAppBlazor.Library.dll
